@@ -1,7 +1,12 @@
+import { Fragment } from "react";
 import Header from "./Components/Header";
+import IncomeStatement from "./Components/IncomeStatement";
 
 const App = () => (
-    <Header brand="IncomeStatement"/>
+    <Fragment>
+      <Header brand="IncomeStatement"/>
+      <IncomeStatement />
+    </Fragment>
 );
 
 export default App;
